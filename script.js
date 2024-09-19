@@ -64,6 +64,7 @@ let stateChanger = ()=>
                         grid[i].src='';
                         grid[i].style.display = 'none';
                     }
+            playerTurn = 0;
             // window.location.reload();
         }
     }
