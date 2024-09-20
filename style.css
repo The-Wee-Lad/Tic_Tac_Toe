@@ -7,9 +7,10 @@
 .wrapper
 {
     position: fixed;
+    padding: 10px;
     inset: 0;
     margin: auto;
-    border: 10px black solid;
+    border: 5px black solid;
     display: flex;
     height: 100vh;
     width:400px;
@@ -59,7 +60,8 @@ h1{
 {
     height: 10%;
     width:  100%;
-    /* border: 1px solid rgb(213, 147, 147); */
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
     background-color: rgb(255, 209, 209);
     color:rgb(90, 50, 222);
     font-size: 30px;
