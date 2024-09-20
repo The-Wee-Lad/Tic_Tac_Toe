@@ -28,6 +28,8 @@ h1{
     margin-right: auto;
     margin-top: 15%;;
     border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
 }
 .container
 {
@@ -50,17 +52,19 @@ h1{
     width: 32.2%;
     height: 32.2%;
     overflow: hidden;
+    position: relative;
 }
 
 .player
 {
     height: 10%;
     width:  100%;
-    border: 1px solid rgb(213, 147, 147);
-    background-color: rgb(228, 206, 251);
-    color:cadetblue;
+    /* border: 1px solid rgb(213, 147, 147); */
+    background-color: rgb(255, 209, 209);
+    color:rgb(90, 50, 222);
     font-size: 30px;
     padding: 1rem;
+    font-weight: 600;
 }
 
 .start
@@ -73,29 +77,18 @@ h1{
     font-weight: 800;
     background-color: green;
     color: antiquewhite;
+    border-radius: 15px;
 }
 
 .box img
 {
-    height:  80%;
-    width: 80%;
+    height:  75%;
+    width: 75%;
     display: none;
     object-fit: fill;
-    margin: 10px 10px;
-
-}
-.img
-{
-    height: 200px;
-    width: 200px;
-    background-color: aqua;
+    margin: auto;
+    position: absolute;
+    inset: 0px;
 }
 
-.img
-{
-    display: none;
-    height: 100%;
-    width: 100%;
-    border: 2px solid black;
-}
 
