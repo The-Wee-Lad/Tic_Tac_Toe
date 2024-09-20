@@ -10,9 +10,9 @@
     padding: 10px;
     inset: 0;
     margin: auto;
-    border: 5px black solid;
+    border: 5px rgba(0, 0, 0, 0.17) dotted;
     display: flex;
-    height: 100vh;
+    height: 100%;
     width:400px;
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +65,7 @@ h1{
     background-color: rgb(255, 209, 209);
     color:rgb(90, 50, 222);
     font-size: 30px;
-    padding: 1rem;
+    padding-top: 1rem;
     font-weight: 600;
 }
 
@@ -73,7 +73,7 @@ h1{
 {
     height: 10%;
     width:  75%;
-    padding: 1rem;
+    padding-top: 1rem;
     border: 2px solid black;
     font-size: 2rem;
     font-weight: 800;
